@@ -25,7 +25,7 @@ const HomePage = () => {
 
       <div className={`app-container ${showIntro ? "hidden" : ""}`}>
         <div className="home-container">
-          <h1 className="home-title">Adier+</h1>
+          <h1 className="home-title">Aider+</h1>
           <div className="hospital-list">
             {hospitals.map((hospital) => (
               <div key={hospital.id} className="hospital-card">
